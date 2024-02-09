@@ -3,7 +3,24 @@
 
 int main()
 {
+char color[20];
+    char plurarNoun[20];
+    char celebrityF[20];
+    char celebrityL[20];
 
+    printf("Enter Your color: ");
+    scanf("%s",color);
+
+    printf("Enter Your plurarNoun: ");
+    scanf("%s",plurarNoun);
+
+    printf("Enter Your selebrity: ");
+    scanf("%s%s",celebrityL,celebrityF);
+
+
+    printf("Roses are %s \n",color);
+    printf("%s are blue \n",plurarNoun);
+    printf("I love %s %s \n",celebrityL,celebrityF);
 
     // how to use variables
 
@@ -55,8 +72,26 @@ int main()
 
     int age;
     printf("enter your age: ");
-    scanf("%d",&age);  //scanf() momxmarebels sashualebas adzlevs monacemebi sheiyvanos programashi
+    scanf("%d",&age);// & ampersantis nishani pointeria  //scanf() momxmarebels sashualebas adzlevs monacemebi sheiyvanos programashi
     printf("your age is %d \n",age);
+
+
+    //primitiuli kalkulatori
+
+    double num1;
+    double num2;
+    printf("Enter first Number: ");
+    scanf("%lf",&num1);
+    printf("Enter Second Number: ");
+    scanf("%lf",&num2);
+
+    printf("your answer: %f",num1+num2);
+
+
+
+    // vbildavt patara tamashs C shi
+
+
 
 
 
