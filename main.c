@@ -3,24 +3,7 @@
 
 int main()
 {
-char color[20];
-    char plurarNoun[20];
-    char celebrityF[20];
-    char celebrityL[20];
 
-    printf("Enter Your color: ");
-    scanf("%s",color);
-
-    printf("Enter Your plurarNoun: ");
-    scanf("%s",plurarNoun);
-
-    printf("Enter Your selebrity: ");
-    scanf("%s%s",celebrityL,celebrityF);
-
-
-    printf("Roses are %s \n",color);
-    printf("%s are blue \n",plurarNoun);
-    printf("I love %s %s \n",celebrityL,celebrityF);
 
     // how to use variables
 
@@ -91,9 +74,38 @@ char color[20];
 
     // vbildavt patara tamashs C shi
 
+    char color[20];
+    char plurarNoun[20];
+    char celebrityF[20];
+    char celebrityL[20];
+
+    printf("Enter Your color: ");
+    scanf("%s",color);
+
+    printf("Enter Your plurarNoun: ");
+    scanf("%s",plurarNoun);
+
+    printf("Enter Your selebrity: ");
+    scanf("%s%s",celebrityL,celebrityF);
 
 
+    printf("Roses are %s \n",color);
+    printf("%s are blue \n",plurarNoun);
+    printf("I love %s %s \n",celebrityL,celebrityF);
 
+
+    //array in C language
+
+    int luckyNumbers[] = {2,3,4,5,6,7,55};
+
+    printf("%d",luckyNumbers[0]);
+
+    //anu aq qvevit vqmnit masivs romelsac vadzlevt sashualebas aigos mxolod 10 elementi mashi
+    // da mere indexis mixedvit vadzlevt mnishvnelobebs da vprintavt
+
+    int luckyNums[10];
+    luckyNums[1] = 200;
+    printf("%d",luckyNums[1]);
 
 
 
