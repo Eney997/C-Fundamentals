@@ -3,6 +3,8 @@
 
 int main()
 {
+    // how to use variables
+
     char fraza[] = "hello world";
     char characterName[] = "Rene";
     int characterAge = 35;
