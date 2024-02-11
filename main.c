@@ -107,7 +107,7 @@ int main()
     luckyNums[1] = 200;
     printf("%d",luckyNums[1]);
 
-
+    //FUNCTION IN C
 
     return 0;
 }
