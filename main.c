@@ -185,6 +185,14 @@ int main()
     printf("%d",student1.age);
 
 
+    // while and do while loop
+
+    int i = 1;
+    while(i<=10){
+    printf("%d \n",i);
+    i++;
+    }
+
     return 0;
 }
 
