@@ -21,7 +21,8 @@ double cube(double num){
 
 int main()
 {
-    printf("%d",max(2,13));
+
+
     //aqedan daiwye !!!
 
     // how to use variables
@@ -141,6 +142,26 @@ int main()
     //if statemant in C
 
     printf("%d",max(4,10));
+
+    //Switch statemant
+
+    char grade = 'A';
+    switch(grade){
+    case 'A':
+    printf("you did grate");
+    break;
+    case 'B':
+    printf("Not to bad");
+    break;
+    case 'C':
+    printf("you Suck");
+    break;
+    case 'F':
+    printf("you faild bitch");
+    break;
+    default:
+        printf("invalid grade");
+    }
 
     return 0;
 }
