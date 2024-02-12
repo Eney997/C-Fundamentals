@@ -19,8 +19,19 @@ double cube(double num){
     return result;
     }
 
+    struct Student {
+    char name[50];
+    char major[50];
+    int age;
+    double gpa;
+    };
+
+
+
 int main()
 {
+
+
 
 
     //aqedan daiwye !!!
@@ -162,6 +173,17 @@ int main()
     default:
         printf("invalid grade");
     }
+
+    // Structs in C
+
+    struct Student student1;
+    student1.age = 22;
+    student1.gpa =3,2;
+    strcpy(student1.name,"jim");
+    strcpy(student1.major,"Buisness");
+
+    printf("%d",student1.age);
+
 
     return 0;
 }
