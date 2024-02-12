@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// returnis function
+double cube(double num){
+     double result = num * num * num ;
+     return result;
+    };
+
 int main()
 {
-
+    //aqedan daiwye !!!
 
     // how to use variables
 
@@ -107,7 +113,23 @@ int main()
     luckyNums[1] = 200;
     printf("%d",luckyNums[1]);
 
+
+
+
     //FUNCTION IN C
+
+    myFunction("Rene",23);
+
+    // Return statemant
+
+    printf("Answer : %f ", cube(3.0));
+
 
     return 0;
 }
+
+    void myFunction(char name[],int age){
+     printf("hello %s,You are %d years old",name,age);
+    };
+
+
