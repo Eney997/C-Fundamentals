@@ -7,8 +7,21 @@ double cube(double num){
      return result;
     };
 
+    //if statemant function
+
+    int max (int num1 , int num2){
+    int result;
+    if(num1>num2){
+     result = num1;
+    }else {
+      result = num2;
+    }
+    return result;
+    }
+
 int main()
 {
+    printf("%d",max(2,13));
     //aqedan daiwye !!!
 
     // how to use variables
@@ -124,6 +137,10 @@ int main()
 
     printf("Answer : %f ", cube(3.0));
 
+
+    //if statemant in C
+
+    printf("%d",max(4,10));
 
     return 0;
 }
