@@ -201,6 +201,11 @@ int main()
     }
 
 
+    int ricxvebi[] = {4,8,15,16,23,42};
+
+   for(int j = 0;j<6;j++){
+    printf("%d\n",ricxvebi[j]);
+   };
 
 
 
