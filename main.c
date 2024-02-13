@@ -32,9 +32,6 @@ int main()
 {
 
 
-
-
-
     //aqedan daiwye !!!
 
     // how to use variables
@@ -227,6 +224,14 @@ int main()
         printf("\n");
      }
 
+
+     //Memory Address
+
+     int agee = 30;
+     double gpaa = 3.4;
+     char gradee = 'A';
+
+     printf("Age :%p\nGpa :%p \nGrd :%p\n", &agee,&gpaa,&gradee);
 
 
 
