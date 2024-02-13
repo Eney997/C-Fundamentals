@@ -34,6 +34,7 @@ int main()
 
 
 
+
     //aqedan daiwye !!!
 
     // how to use variables
@@ -206,6 +207,26 @@ int main()
    for(int j = 0;j<6;j++){
     printf("%d\n",ricxvebi[j]);
    };
+
+
+   //2demonsional array
+
+    int rcx[3][2] = {{1,2},{3,4},{5,6}};
+    printf("%d",rcx[2][1]);
+
+
+    // nested for loop = loop in loop
+
+    int rcxv[3][2] = {{1,2},{3,4},{5,6}};
+
+     int m,n;
+     for(m=0;m<3;m++){
+        for(n=0;n<2;n++){
+            printf("%d",rcxv[m][n]);
+        }
+        printf("\n");
+     }
+
 
 
 
