@@ -31,9 +31,7 @@ double cube(double num){
 int main()
 {
 
-    for(int c = 1;c<=10;c++){
-        printf("%d \n",c);
-    }
+
 
 
     //aqedan daiwye !!!
@@ -198,7 +196,9 @@ int main()
 
     // For loop
 
-
+    for(int c = 1;c<=10;c++){
+        printf("%d \n",c);
+    }
 
 
 
