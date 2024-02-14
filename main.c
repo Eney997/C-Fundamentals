@@ -234,6 +234,8 @@ int main()
      printf("Age :%p\nGpa :%p \nGrd :%p\n", &agee,&gpaa,&gradee);
 
 
+     //Pointers in c
+
 
     return 0;
 }
