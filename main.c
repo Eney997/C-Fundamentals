@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//today will be changed
+
 // returnis function
 double cube(double num){
      double result = num * num * num ;
