@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//today will be changed
+//today will be changed and heres today
 
 // returnis function
 double cube(double num){
