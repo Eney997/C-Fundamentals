@@ -246,6 +246,19 @@ int main()
 
 
 
+     // deferencing pointers in C
+
+     int asakebi = 30;
+     int * pAsakebi = &asakebi;
+
+     printf("%d",*&asakebi);
+
+     // %d imito iyeneb da ara %p rom eg amoigebs mnishvnelobas rac inaxeboda im memory adressze
+     // anu eg ukve pointeri agaraa da ricxvi iqneba ra nu rac iqneba shenaxuli imis mixedvit
+
+
+
+
 
     return 0;
 }
