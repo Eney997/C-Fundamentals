@@ -33,6 +33,9 @@ double cube(double num){
 int main()
 {
 
+FILE * fpointer = fopen("forfile.txt", "w");
+     fprintf(fpointer,"Me,Salesman\nMe,Coder");
+     fclose(fpointer);
 
 
     //aqedan daiwye !!!
@@ -255,6 +258,10 @@ int main()
 
      // %d imito iyeneb da ara %p rom eg amoigebs mnishvnelobas rac inaxeboda im memory adressze
      // anu eg ukve pointeri agaraa da ricxvi iqneba ra nu rac iqneba shenaxuli imis mixedvit
+
+
+     // writtin files in C
+
 
 
 
