@@ -266,6 +266,14 @@ int main()
      fclose(fpointer);
 
 
+     // reading file
+    char line[255];
+    FILE * fheart = fopen("secFile.txt" ,"r");
+    fgets(line,255,fheart);
+    printf("%s",line);
+    fclose(fheart);
+
+
 
     return 0;
 }
