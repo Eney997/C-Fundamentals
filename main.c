@@ -33,9 +33,7 @@ double cube(double num){
 int main()
 {
 
-FILE * fpointer = fopen("forfile.txt", "w");
-     fprintf(fpointer,"Me,Salesman\nMe,Coder");
-     fclose(fpointer);
+
 
 
     //aqedan daiwye !!!
@@ -263,7 +261,9 @@ FILE * fpointer = fopen("forfile.txt", "w");
      // writtin files in C
 
 
-
+     FILE * fpointer = fopen("forfile.txt", "w");
+     fprintf(fpointer,"Me,Salesman\nMe,Coder");
+     fclose(fpointer);
 
 
 
