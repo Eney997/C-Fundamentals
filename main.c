@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//today will be changed and heres today
+
 
 // returnis function
 double cube(double num){
@@ -32,6 +32,7 @@ double cube(double num){
 
 int main()
 {
+
 
 
     //aqedan daiwye !!!
@@ -237,6 +238,13 @@ int main()
 
 
      //Pointers in c
+     int asaki = 30;
+     printf("ages memory address : %p \n", &asaki);
+
+     // ase shedzleb gaaketo pointer cvladi romelishic sheinaxav sxva cvladis heqsa adress
+     // int * pAge = &age;
+
+
 
 
     return 0;
