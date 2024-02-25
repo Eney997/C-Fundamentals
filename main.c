@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
 // returnis function
 double cube(double num){
      double result = num * num * num ;
@@ -28,23 +26,15 @@ double cube(double num){
     double gpa;
     };
 
-
-
 int main()
 {
-
-
-
-
-    //aqedan daiwye !!!
-
     // how to use variables
 
     char fraza[] = "hello world";
     char characterName[] = "Rene";
     int characterAge = 35;
     printf("%s\n",fraza);
-    printf("There once was a man named %s\n", characterName);
+    printf("There once %d was a man named %s\n", characterName, characterAge);
     printf("He was %d years old.\n", characterAge);
 
     characterAge = 23;
@@ -55,8 +45,6 @@ int main()
     printf("But did not like being %d\n",characterAge);
 
     printf("my fav %s is %d","number",12);
-
-
 
     // working with numbers
 
@@ -91,7 +79,6 @@ int main()
     scanf("%d",&age);// & ampersantis nishani pointeria  //scanf() momxmarebels sashualebas adzlevs monacemebi sheiyvanos programashi
     printf("your age is %d \n",age);
 
-
     //primitiuli kalkulatori
 
     double num1;
@@ -102,8 +89,6 @@ int main()
     scanf("%lf",&num2);
 
     printf("your answer: %f",num1+num2);
-
-
 
     // vbildavt patara tamashs C shi
 
@@ -139,9 +124,6 @@ int main()
     int luckyNums[10];
     luckyNums[1] = 200;
     printf("%d",luckyNums[1]);
-
-
-
 
     //FUNCTION IN C
 
@@ -186,7 +168,6 @@ int main()
 
     printf("%d",student1.age);
 
-
     // while and do while loop
 
     int i = 1;
@@ -195,13 +176,11 @@ int main()
     i++;
     }
 
-
     // For loop
 
     for(int c = 1;c<=10;c++){
         printf("%d \n",c);
     }
-
 
     int ricxvebi[] = {4,8,15,16,23,42};
 
@@ -209,12 +188,10 @@ int main()
     printf("%d\n",ricxvebi[j]);
    };
 
-
    //2demonsional array
 
     int rcx[3][2] = {{1,2},{3,4},{5,6}};
     printf("%d",rcx[2][1]);
-
 
     // nested for loop = loop in loop
 
@@ -228,7 +205,6 @@ int main()
         printf("\n");
      }
 
-
      //Memory Address
 
      int agee = 30;
@@ -237,15 +213,12 @@ int main()
 
      printf("Age :%p\nGpa :%p \nGrd :%p\n", &agee,&gpaa,&gradee);
 
-
      //Pointers in c
      int asaki = 30;
      printf("ages memory address : %p \n", &asaki);
 
      // ase shedzleb gaaketo pointer cvladi romelishic sheinaxav sxva cvladis heqsa adress
      // int * pAge = &age;
-
-
 
      // deferencing pointers in C
 
@@ -257,14 +230,11 @@ int main()
      // %d imito iyeneb da ara %p rom eg amoigebs mnishvnelobas rac inaxeboda im memory adressze
      // anu eg ukve pointeri agaraa da ricxvi iqneba ra nu rac iqneba shenaxuli imis mixedvit
 
-
      // writtin files in C
-
 
      FILE * fpointer = fopen("forfile.txt", "w");
      fprintf(fpointer,"Me,Salesman\nMe,Coder");
      fclose(fpointer);
-
 
      // reading file
     char line[255];
@@ -272,8 +242,6 @@ int main()
     fgets(line,255,fheart);
     printf("%s",line);
     fclose(fheart);
-
-
 
     return 0;
 }
